@@ -31,6 +31,6 @@ GET http://localhost:8081/lesson
 Student Service
 GET http://localhost:8082/student
 API Gateway üzerinden erişim
-GET http://localhost:8080/lesson
-GET http://localhost:8080/student
+GET http://localhost:8060/lesson
+GET http://localhost:8060/student
 🔁 Not: Tüm servisler Docker konteynerlerinde çalıştırılmakta ve servisler arası iletişim Eureka üzerinden sağlanmaktadır.
